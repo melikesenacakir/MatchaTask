@@ -1,0 +1,1163 @@
+{
+  "programming_languages": {
+    "general_purpose": {
+      "Python": {
+        "name": "Python",
+        "aliases": ["python", "py"],
+        "versions": ["3.8+", "3.9", "3.10", "3.11", "3.12"],
+        "standard_libraries": ["os", "sys", "datetime", "collections", "itertools", "functools", "pathlib", "typing", "asyncio", "multiprocessing", "threading"],
+        "package_managers": ["pip", "conda", "poetry", "pipenv"],
+        "testing": ["pytest", "unittest", "doctest", "hypothesis", "tox"],
+        "linting": ["pylint", "flake8", "black", "isort", "mypy", "ruff"],
+        "use_cases": ["Web Development", "Data Science", "Machine Learning", "Automation", "Scripting"],
+        "related_skills": ["Django", "Flask", "FastAPI", "Pandas", "NumPy", "PyTorch", "TensorFlow"]
+      },
+      "Java": {
+        "name": "Java",
+        "aliases": ["java", "jdk"],
+        "versions": ["Java 8", "Java 11 LTS", "Java 17 LTS", "Java 21 LTS"],
+        "frameworks": ["Spring", "Spring Boot", "Hibernate", "JPA", "Quarkus", "Micronaut"],
+        "build_tools": ["Maven", "Gradle", "Ant"],
+        "testing": ["JUnit 5", "TestNG", "Mockito", "AssertJ", "Cucumber"],
+        "jvm_languages": ["Kotlin", "Scala", "Groovy", "Clojure"],
+        "related_skills": ["Spring Boot", "Maven", "Gradle", "JUnit"]
+      },
+      "C": {
+        "name": "C",
+        "aliases": ["c programming", "c language"],
+        "standards": ["C89/C90", "C99", "C11", "C17", "C23"],
+        "compilers": ["GCC", "Clang", "MSVC"],
+        "build_tools": ["Make", "CMake", "Autotools"],
+        "use_cases": ["System Programming", "Embedded Systems", "Operating Systems", "Performance-Critical Applications"],
+        "related_skills": ["C++", "Make", "CMake"]
+      },
+      "C++": {
+        "name": "C++",
+        "aliases": ["cpp", "c plus plus", "cxx"],
+        "standards": ["C++11", "C++14", "C++17", "C++20", "C++23"],
+        "libraries": ["STL", "Boost", "Qt", "POCO"],
+        "build_tools": ["CMake", "Make", "Ninja", "Bazel"],
+        "testing": ["Google Test", "Catch2", "Boost.Test"],
+        "modern_features": ["Smart Pointers", "Lambda Expressions", "Move Semantics", "Concepts", "Ranges", "Coroutines"],
+        "related_skills": ["CMake", "Qt", "Boost"]
+      },
+      "C#": {
+        "name": "C#",
+        "aliases": ["csharp", "c sharp"],
+        "versions": ["C# 8.0", "C# 9.0", "C# 10.0", "C# 11.0", "C# 12.0"],
+        "frameworks": [".NET 6", ".NET 7", ".NET 8", ".NET Framework", ".NET Core"],
+        "features": ["LINQ", "async/await", "Records", "Pattern Matching", "Nullable Reference Types"],
+        "testing": ["xUnit", "NUnit", "MSTest"],
+        "related_skills": ["ASP.NET Core", ".NET", "Entity Framework"]
+      },
+      "Go": {
+        "name": "Go",
+        "aliases": ["golang", "go language"],
+        "versions": ["Go 1.18+", "Go 1.19", "Go 1.20", "Go 1.21", "Go 1.22"],
+        "frameworks": ["Gin", "Echo", "Fiber", "Chi"],
+        "tools": ["go mod", "go test", "go fmt", "golangci-lint"],
+        "features": ["Goroutines", "Channels", "Interfaces", "Generics", "Defer"],
+        "related_skills": ["Gin", "Echo", "Kubernetes"]
+      },
+      "Rust": {
+        "name": "Rust",
+        "aliases": ["rustlang"],
+        "editions": ["Rust 2018", "Rust 2021"],
+        "frameworks": ["Actix-web", "Rocket", "Axum", "Tokio"],
+        "tools": ["Cargo", "rustfmt", "Clippy"],
+        "features": ["Ownership", "Borrowing", "Lifetimes", "Traits", "Pattern Matching", "Async/Await"],
+        "related_skills": ["Cargo", "Tokio"]
+      }
+    },
+    "web": {
+      "JavaScript": {
+        "name": "JavaScript",
+        "aliases": ["js", "javascript", "ecmascript"],
+        "standards": ["ES5", "ES6/ES2015", "ES2016+", "ESNext"],
+        "runtime": ["Node.js", "Deno", "Bun"],
+        "package_managers": ["npm", "yarn", "pnpm"],
+        "module_systems": ["CommonJS", "ES Modules", "AMD", "UMD"],
+        "transpilers": ["Babel", "SWC", "esbuild"],
+        "linting": ["ESLint", "Prettier"],
+        "testing": ["Jest", "Mocha", "Chai", "Vitest", "Cypress", "Playwright"],
+        "related_skills": ["Node.js", "React", "Vue.js", "Angular", "TypeScript"]
+      },
+      "TypeScript": {
+        "name": "TypeScript",
+        "aliases": ["ts", "typescript"],
+        "versions": ["4.x", "5.x"],
+        "features": ["Type Inference", "Generics", "Decorators", "Enums", "Interfaces", "Union Types", "Type Guards"],
+        "tools": ["tsc", "ts-node", "tsx"],
+        "linting": ["typescript-eslint"],
+        "related_skills": ["JavaScript", "React", "Angular", "Node.js"]
+      },
+      "PHP": {
+        "name": "PHP",
+        "aliases": ["php"],
+        "versions": ["PHP 7.4", "PHP 8.0", "PHP 8.1", "PHP 8.2", "PHP 8.3"],
+        "frameworks": ["Laravel", "Symfony", "CodeIgniter", "Yii", "Slim"],
+        "features": ["Namespaces", "Traits", "Closures", "Generators", "Attributes", "Fibers"],
+        "package_manager": ["Composer"],
+        "testing": ["PHPUnit", "Pest", "Codeception"],
+        "related_skills": ["Laravel", "Composer", "MySQL"]
+      },
+      "Ruby": {
+        "name": "Ruby",
+        "aliases": ["ruby"],
+        "versions": ["Ruby 2.7", "Ruby 3.0", "Ruby 3.1", "Ruby 3.2", "Ruby 3.3"],
+        "frameworks": ["Ruby on Rails", "Sinatra", "Hanami"],
+        "features": ["Blocks", "Procs", "Lambdas", "Metaprogramming", "Modules", "Mixins"],
+        "package_manager": ["RubyGems", "Bundler"],
+        "testing": ["RSpec", "Minitest", "Capybara"],
+        "related_skills": ["Ruby on Rails", "RSpec"]
+      }
+    },
+    "mobile": {
+      "Swift": {
+        "name": "Swift",
+        "aliases": ["swift"],
+        "versions": ["Swift 5.x", "Swift 6.x"],
+        "frameworks": ["UIKit", "SwiftUI", "Combine", "CoreData", "CoreML"],
+        "features": ["Optionals", "Closures", "Protocols", "Extensions", "Generics", "Property Wrappers"],
+        "tools": ["Xcode", "Swift Package Manager", "CocoaPods", "Carthage"],
+        "related_skills": ["iOS", "SwiftUI", "UIKit"]
+      },
+      "Kotlin": {
+        "name": "Kotlin",
+        "aliases": ["kotlin"],
+        "versions": ["Kotlin 1.8", "Kotlin 1.9", "Kotlin 2.0"],
+        "frameworks": ["Android SDK", "Jetpack Compose", "Ktor"],
+        "features": ["Null Safety", "Extension Functions", "Coroutines", "Data Classes", "Sealed Classes"],
+        "tools": ["Gradle", "Android Studio"],
+        "related_skills": ["Android", "Jetpack Compose", "Spring Boot"]
+      },
+      "Dart": {
+        "name": "Dart",
+        "aliases": ["dart"],
+        "versions": ["Dart 2.x", "Dart 3.x"],
+        "framework": ["Flutter"],
+        "features": ["Sound Null Safety", "Async/Await", "Streams", "Mixins", "Extension Methods"],
+        "tools": ["pub", "dart analyze", "dart format"],
+        "related_skills": ["Flutter"]
+      }
+    },
+    "data_science": {
+      "R": {
+        "name": "R",
+        "aliases": ["r language", "r programming"],
+        "versions": ["R 4.x"],
+        "packages": ["dplyr", "ggplot2", "tidyr", "caret", "shiny", "data.table", "lubridate"],
+        "ide": ["RStudio"],
+        "use_cases": ["Statistical Analysis", "Data Visualization", "Bioinformatics"],
+        "related_skills": ["RStudio", "ggplot2"]
+      },
+      "MATLAB": {
+        "name": "MATLAB",
+        "aliases": ["matlab"],
+        "versions": ["R2023a", "R2023b", "R2024a"],
+        "toolboxes": ["Statistics and Machine Learning", "Deep Learning", "Signal Processing", "Image Processing"],
+        "use_cases": ["Numerical Computing", "Algorithm Development", "Simulation"],
+        "related_skills": ["Simulink"]
+      },
+      "Julia": {
+        "name": "Julia",
+        "aliases": ["julia"],
+        "versions": ["Julia 1.8+", "Julia 1.9", "Julia 1.10"],
+        "packages": ["DataFrames.jl", "Plots.jl", "Flux.jl", "DifferentialEquations.jl"],
+        "features": ["Multiple Dispatch", "Metaprogramming", "JIT Compilation"],
+        "use_cases": ["High-Performance Computing", "Scientific Computing", "Data Science"],
+        "related_skills": ["DataFrames.jl"]
+      }
+    },
+    "scripting": {
+      "Bash": {
+        "name": "Bash",
+        "aliases": ["bash", "shell scripting", "shell"],
+        "shells": ["bash", "zsh", "sh"],
+        "tools": ["awk", "sed", "grep", "find", "xargs"],
+        "use_cases": ["System Administration", "Automation", "DevOps"],
+        "related_skills": ["Linux", "Shell Scripting"]
+      },
+      "PowerShell": {
+        "name": "PowerShell",
+        "aliases": ["powershell", "pwsh"],
+        "versions": ["PowerShell 5.1", "PowerShell 7.x"],
+        "features": ["Cmdlets", "Pipelines", "Objects", "Modules"],
+        "use_cases": ["Windows Administration", "Automation", "Configuration Management"],
+        "related_skills": ["Windows", "Azure"]
+      },
+      "Perl": {
+        "name": "Perl",
+        "aliases": ["perl"],
+        "versions": ["Perl 5.x"],
+        "features": ["Regular Expressions", "Text Processing", "CPAN"],
+        "use_cases": ["Text Processing", "System Administration", "Web Development"],
+        "related_skills": ["CPAN"]
+      }
+    }
+  },
+
+  "web_frameworks": {
+    "frontend": {
+      "React": {
+        "name": "React",
+        "aliases": ["react", "reactjs"],
+        "versions": ["React 17", "React 18", "React 19"],
+        "ecosystem": {
+          "routing": ["React Router", "TanStack Router", "Wouter"],
+          "state_management": ["Redux", "Redux Toolkit", "MobX", "Zustand", "Jotai", "Recoil", "Context API"],
+          "ui_libraries": ["Material-UI", "Ant Design", "Chakra UI", "Mantine", "shadcn/ui", "Radix UI"],
+          "styling": ["CSS Modules", "Styled Components", "Emotion", "Tailwind CSS", "CSS-in-JS"],
+          "forms": ["Formik", "React Hook Form", "Final Form"],
+          "data_fetching": ["React Query", "SWR", "Apollo Client", "RTK Query"],
+          "testing": ["React Testing Library", "Jest", "Vitest", "Cypress", "Playwright"]
+        },
+        "features": ["Hooks", "Context API", "Suspense", "Concurrent Features", "Server Components"],
+        "meta_frameworks": ["Next.js", "Remix", "Gatsby"],
+        "related_skills": ["JavaScript", "TypeScript", "Redux", "Next.js"]
+      },
+      "Next.js": {
+        "name": "Next.js",
+        "aliases": ["nextjs", "next.js"],
+        "versions": ["Next.js 13", "Next.js 14", "Next.js 15"],
+        "features": ["App Router", "Server Components", "Server Actions", "Streaming", "ISR", "SSR", "SSG", "Image Optimization"],
+        "deployment": ["Vercel", "Self-hosted", "Docker"],
+        "related_skills": ["React", "TypeScript", "Vercel"]
+      },
+      "Vue.js": {
+        "name": "Vue.js",
+        "aliases": ["vue", "vuejs"],
+        "versions": ["Vue 2", "Vue 3"],
+        "ecosystem": {
+          "routing": ["Vue Router"],
+          "state_management": ["Vuex", "Pinia"],
+          "ui_libraries": ["Vuetify", "Element Plus", "Quasar", "PrimeVue"],
+          "build_tools": ["Vite", "Vue CLI"]
+        },
+        "features": ["Composition API", "Reactivity System", "Single File Components"],
+        "meta_frameworks": ["Nuxt.js"],
+        "related_skills": ["JavaScript", "TypeScript", "Nuxt.js"]
+      },
+      "Nuxt.js": {
+        "name": "Nuxt.js",
+        "aliases": ["nuxt", "nuxtjs"],
+        "versions": ["Nuxt 2", "Nuxt 3"],
+        "features": ["SSR", "SSG", "Hybrid Rendering", "Auto Imports", "File-based Routing"],
+        "modules": ["Nuxt Content", "Nuxt Image", "Nuxt Auth"],
+        "related_skills": ["Vue.js"]
+      },
+      "Angular": {
+        "name": "Angular",
+        "aliases": ["angular", "angularjs"],
+        "versions": ["Angular 14", "Angular 15", "Angular 16", "Angular 17", "Angular 18"],
+        "ecosystem": {
+          "routing": ["Angular Router"],
+          "state_management": ["NgRx", "Akita", "NGXS"],
+          "ui_libraries": ["Angular Material", "PrimeNG", "ng-bootstrap"],
+          "forms": ["Reactive Forms", "Template-driven Forms"]
+        },
+        "features": ["Dependency Injection", "RxJS", "Signals", "Standalone Components"],
+        "tools": ["Angular CLI"],
+        "related_skills": ["TypeScript", "RxJS"]
+      },
+      "Svelte": {
+        "name": "Svelte",
+        "aliases": ["svelte"],
+        "versions": ["Svelte 3", "Svelte 4", "Svelte 5"],
+        "features": ["Reactive Declarations", "Stores", "No Virtual DOM", "Compiler-based"],
+        "meta_framework": ["SvelteKit"],
+        "ui_libraries": ["Skeleton", "Carbon Components", "Svelte Material UI"],
+        "related_skills": ["SvelteKit"]
+      },
+      "SolidJS": {
+        "name": "SolidJS",
+        "aliases": ["solidjs", "solid"],
+        "features": ["Fine-grained Reactivity", "No Virtual DOM", "JSX", "Signals"],
+        "meta_framework": ["SolidStart"],
+        "routing": ["@solidjs/router"],
+        "related_skills": ["JavaScript", "TypeScript"]
+      }
+    },
+    "backend": {
+      "Django": {
+        "name": "Django",
+        "aliases": ["django"],
+        "versions": ["Django 3.2 LTS", "Django 4.2 LTS", "Django 5.0"],
+        "components": ["ORM", "Admin Panel", "Authentication", "Forms", "Templates"],
+        "packages": ["Django REST Framework", "Celery", "Django Channels", "Django Allauth"],
+        "features": ["MVT Pattern", "Middleware", "Signals", "Migrations"],
+        "databases": ["PostgreSQL", "MySQL", "SQLite", "Oracle"],
+        "related_skills": ["Python", "PostgreSQL", "Celery"]
+      },
+      "Flask": {
+        "name": "Flask",
+        "aliases": ["flask"],
+        "versions": ["Flask 2.x", "Flask 3.x"],
+        "extensions": ["Flask-SQLAlchemy", "Flask-Login", "Flask-WTF", "Flask-Migrate", "Flask-RESTful", "Flask-CORS"],
+        "features": ["Lightweight", "Micro-framework", "Jinja2 Templates", "Werkzeug WSGI"],
+        "async_support": ["Quart (async Flask alternative)"],
+        "related_skills": ["Python", "SQLAlchemy"]
+      },
+      "FastAPI": {
+        "name": "FastAPI",
+        "aliases": ["fastapi"],
+        "versions": ["FastAPI 0.100+"],
+        "features": ["Async Support", "Auto API Documentation", "Pydantic Validation", "Dependency Injection", "OAuth2", "JWT"],
+        "tools": ["Uvicorn", "Gunicorn", "Swagger UI", "ReDoc"],
+        "orm": ["SQLAlchemy", "Tortoise ORM", "Prisma"],
+        "related_skills": ["Python", "Pydantic", "SQLAlchemy"]
+      },
+      "Spring Boot": {
+        "name": "Spring Boot",
+        "aliases": ["springboot", "spring boot"],
+        "versions": ["Spring Boot 2.7", "Spring Boot 3.x"],
+        "modules": ["Spring MVC", "Spring Data", "Spring Security", "Spring Cloud", "Spring Batch"],
+        "features": ["Auto-configuration", "Starter Dependencies", "Actuator", "DevTools"],
+        "databases": ["JPA/Hibernate", "JDBC", "MyBatis"],
+        "related_skills": ["Java", "Spring", "Maven", "Gradle"]
+      },
+      "Express.js": {
+        "name": "Express.js",
+        "aliases": ["express", "expressjs"],
+        "versions": ["Express 4.x", "Express 5.x (beta)"],
+        "middleware": ["body-parser", "cors", "helmet", "morgan", "compression"],
+        "authentication": ["Passport.js", "JWT"],
+        "orm": ["Sequelize", "TypeORM", "Prisma", "Mongoose"],
+        "related_skills": ["Node.js", "JavaScript", "MongoDB"]
+      },
+      "NestJS": {
+        "name": "NestJS",
+        "aliases": ["nestjs"],
+        "versions": ["NestJS 9", "NestJS 10"],
+        "features": ["TypeScript", "Dependency Injection", "Decorators", "Modular Architecture"],
+        "modules": ["@nestjs/common", "@nestjs/core", "@nestjs/platform-express", "@nestjs/typeorm", "@nestjs/graphql"],
+        "testing": ["Jest", "Supertest"],
+        "related_skills": ["TypeScript", "Node.js"]
+      },
+      "ASP.NET Core": {
+        "name": "ASP.NET Core",
+        "aliases": ["asp.net core", "aspnet core"],
+        "versions": [".NET 6", ".NET 7", ".NET 8"],
+        "features": ["MVC", "Razor Pages", "Blazor", "Minimal APIs", "gRPC"],
+        "orm": ["Entity Framework Core", "Dapper"],
+        "authentication": ["Identity", "IdentityServer", "Azure AD"],
+        "related_skills": ["C#", ".NET", "Entity Framework"]
+      },
+      "Laravel": {
+        "name": "Laravel",
+        "aliases": ["laravel"],
+        "versions": ["Laravel 9", "Laravel 10", "Laravel 11"],
+        "features": ["Eloquent ORM", "Blade Templates", "Artisan CLI", "Queue System", "Broadcasting"],
+        "packages": ["Laravel Sanctum", "Laravel Passport", "Laravel Horizon", "Laravel Telescope"],
+        "tools": ["Composer", "Laravel Sail", "Laravel Forge"],
+        "related_skills": ["PHP", "Composer", "MySQL"]
+      },
+      "Ruby on Rails": {
+        "name": "Ruby on Rails",
+        "aliases": ["rails", "ruby on rails", "ror"],
+        "versions": ["Rails 6.1", "Rails 7.x"],
+        "features": ["Active Record", "Action Cable", "Active Job", "Action Mailer", "Convention over Configuration"],
+        "testing": ["RSpec", "Minitest", "FactoryBot"],
+        "deployment": ["Heroku", "Capistrano"],
+        "related_skills": ["Ruby", "RSpec"]
+      }
+    },
+    "api": {
+      "REST": {
+        "name": "REST",
+        "aliases": ["rest api", "restful"],
+        "methods": ["GET", "POST", "PUT", "PATCH", "DELETE", "OPTIONS", "HEAD"],
+        "standards": ["JSON API", "HAL", "JSON:API"],
+        "status_codes": ["2xx Success", "3xx Redirection", "4xx Client Error", "5xx Server Error"],
+        "authentication": ["API Keys", "OAuth 2.0", "JWT", "Basic Auth"],
+        "documentation": ["Swagger/OpenAPI", "Postman", "Insomnia"],
+        "best_practices": ["Versioning", "HATEOAS", "Pagination", "Rate Limiting", "CORS"],
+        "related_skills": ["OpenAPI", "Swagger", "Postman"]
+      },
+      "GraphQL": {
+        "name": "GraphQL",
+        "aliases": ["graphql"],
+        "implementations": ["Apollo Server", "GraphQL Yoga", "Mercurius", "Hasura", "AWS AppSync"],
+        "clients": ["Apollo Client", "Relay", "urql", "graphql-request"],
+        "features": ["Queries", "Mutations", "Subscriptions", "Fragments", "Directives"],
+        "tools": ["GraphQL Playground", "GraphiQL", "Apollo Studio"],
+        "schema": ["SDL (Schema Definition Language)", "Code-first", "Schema-first"],
+        "related_skills": ["Apollo", "Hasura"]
+      },
+      "gRPC": {
+        "name": "gRPC",
+        "aliases": ["grpc"],
+        "features": ["Protocol Buffers", "HTTP/2", "Streaming", "Bidirectional Communication"],
+        "implementations": ["grpc-go", "grpc-java", "grpc-node", "grpc-python"],
+        "use_cases": ["Microservices", "Real-time Communication", "High-performance APIs"],
+        "related_skills": ["Protocol Buffers"]
+      },
+      "WebSockets": {
+        "name": "WebSockets",
+        "aliases": ["websockets", "ws"],
+        "libraries": ["Socket.IO", "ws", "uWebSockets", "Primus"],
+        "features": ["Real-time Communication", "Bidirectional", "Event-based"],
+        "use_cases": ["Chat Applications", "Live Updates", "Gaming", "Collaborative Tools"],
+        "related_skills": ["Socket.IO"]
+      }
+    }
+  },
+
+  "databases": {
+    "relational": {
+      "PostgreSQL": {
+        "name": "PostgreSQL",
+        "aliases": ["postgres", "postgresql", "pg"],
+        "versions": ["PostgreSQL 12", "PostgreSQL 13", "PostgreSQL 14", "PostgreSQL 15", "PostgreSQL 16"],
+        "features": ["ACID", "JSONB", "Full-text Search", "Partitioning", "Replication", "Foreign Data Wrappers"],
+        "extensions": ["PostGIS", "pg_trgm", "uuid-ossp", "hstore", "TimescaleDB"],
+        "tools": ["pgAdmin", "DBeaver", "DataGrip", "psql"],
+        "indexing": ["B-tree", "Hash", "GiST", "GIN", "BRIN"],
+        "related_skills": ["SQL", "Django", "SQLAlchemy"]
+      },
+      "MySQL": {
+        "name": "MySQL",
+        "aliases": ["mysql"],
+        "versions": ["MySQL 5.7", "MySQL 8.0", "MySQL 8.1"],
+        "storage_engines": ["InnoDB", "MyISAM", "Memory", "Archive"],
+        "features": ["ACID", "Replication", "Partitioning", "Full-text Search"],
+        "forks": ["MariaDB", "Percona Server"],
+        "tools": ["MySQL Workbench", "phpMyAdmin", "DBeaver"],
+        "related_skills": ["SQL", "PHP", "Laravel"]
+      },
+      "Oracle": {
+        "name": "Oracle",
+        "aliases": ["oracle database", "oracle db"],
+        "versions": ["Oracle 19c", "Oracle 21c", "Oracle 23c"],
+        "features": ["RAC", "Data Guard", "Partitioning", "Advanced Security", "Multitenant"],
+        "tools": ["SQL Developer", "TOAD", "Oracle Enterprise Manager"],
+        "related_skills": ["SQL", "PL/SQL"]
+      },
+      "SQL Server": {
+        "name": "SQL Server",
+        "aliases": ["sql server", "mssql", "microsoft sql server"],
+        "versions": ["SQL Server 2017", "SQL Server 2019", "SQL Server 2022"],
+        "features": ["Always On", "ColumnStore Indexes", "In-Memory OLTP", "Temporal Tables"],
+        "tools": ["SQL Server Management Studio", "Azure Data Studio"],
+        "cloud": ["Azure SQL Database", "Azure SQL Managed Instance"],
+        "related_skills": ["SQL", ".NET", "Azure"]
+      },
+      "SQLite": {
+        "name": "SQLite",
+        "aliases": ["sqlite"],
+        "versions": ["SQLite 3.x"],
+        "features": ["Serverless", "Zero-configuration", "Self-contained", "Transactional"],
+        "use_cases": ["Mobile Apps", "Embedded Systems", "Desktop Applications", "Testing"],
+        "related_skills": ["SQL"]
+      }
+    },
+    "nosql": {
+      "MongoDB": {
+        "name": "MongoDB",
+        "aliases": ["mongodb", "mongo"],
+        "versions": ["MongoDB 5.x", "MongoDB 6.x", "MongoDB 7.x"],
+        "features": ["Document Store", "Sharding", "Replication", "Aggregation Pipeline", "Change Streams"],
+        "tools": ["MongoDB Compass", "Robo 3T", "Studio 3T"],
+        "drivers": ["PyMongo", "Mongoose", "MongoDB Go Driver", "Motor (async)"],
+        "cloud": ["MongoDB Atlas"],
+        "related_skills": ["Express.js", "Mongoose", "Node.js"]
+      },
+      "Cassandra": {
+        "name": "Cassandra",
+        "aliases": ["apache cassandra", "cassandra"],
+        "versions": ["Apache Cassandra 3.x", "Apache Cassandra 4.x"],
+        "features": ["Wide-column Store", "Distributed", "High Availability", "Tunable Consistency"],
+        "query_language": ["CQL (Cassandra Query Language)"],
+        "tools": ["cqlsh", "DataStax DevCenter"],
+        "related_skills": ["CQL"]
+      },
+      "DynamoDB": {
+        "name": "DynamoDB",
+        "aliases": ["dynamodb", "dynamo db"],
+        "features": ["Key-value Store", "Document Store", "Serverless", "Auto-scaling", "Global Tables"],
+        "access_patterns": ["Partition Key", "Sort Key", "GSI", "LSI"],
+        "tools": ["AWS Console", "NoSQL Workbench", "DynamoDB Local"],
+        "related_skills": ["AWS"]
+      },
+      "CouchDB": {
+        "name": "CouchDB",
+        "aliases": ["couchdb", "apache couchdb"],
+        "versions": ["CouchDB 3.x"],
+        "features": ["Document Store", "HTTP API", "Multi-version Concurrency Control", "Replication"],
+        "query": ["MapReduce", "Mango Query Language"],
+        "related_skills": ["MapReduce"]
+      },
+      "Neo4j": {
+        "name": "Neo4j",
+        "aliases": ["neo4j"],
+        "versions": ["Neo4j 4.x", "Neo4j 5.x"],
+        "type": ["Graph Database"],
+        "query_language": ["Cypher"],
+        "features": ["ACID", "Indexes", "Constraints", "Graph Algorithms"],
+        "use_cases": ["Social Networks", "Recommendation Engines", "Fraud Detection"],
+        "related_skills": ["Cypher"]
+      }
+    },
+    "in_memory": {
+      "Redis": {
+        "name": "Redis",
+        "aliases": ["redis"],
+        "versions": ["Redis 6.x", "Redis 7.x"],
+        "data_structures": ["Strings", "Lists", "Sets", "Sorted Sets", "Hashes", "Bitmaps", "HyperLogLogs", "Streams"],
+        "features": ["Pub/Sub", "Transactions", "Lua Scripting", "Persistence", "Replication", "Clustering"],
+        "use_cases": ["Caching", "Session Storage", "Real-time Analytics", "Message Queue"],
+        "tools": ["redis-cli", "RedisInsight"],
+        "related_skills": ["Caching", "Django", "Celery"]
+      },
+      "Memcached": {
+        "name": "Memcached",
+        "aliases": ["memcached"],
+        "versions": ["Memcached 1.6.x"],
+        "features": ["Key-value Store", "LRU Eviction", "Distributed"],
+        "use_cases": ["Caching", "Session Storage"],
+        "related_skills": ["Caching"]
+      }
+    },
+    "search_engines": {
+      "Elasticsearch": {
+        "name": "Elasticsearch",
+        "aliases": ["elasticsearch", "elastic"],
+        "versions": ["Elasticsearch 7.x", "Elasticsearch 8.x"],
+        "features": ["Full-text Search", "Distributed", "RESTful API", "Aggregations", "Real-time Indexing"],
+        "stack": ["ELK Stack (Elasticsearch, Logstash, Kibana)"],
+        "use_cases": ["Search", "Log Analytics", "Monitoring", "Security Analytics"],
+        "related_skills": ["Kibana", "Logstash"]
+      },
+      "OpenSearch": {
+        "name": "OpenSearch",
+        "aliases": ["opensearch"],
+        "versions": ["OpenSearch 1.x", "OpenSearch 2.x"],
+        "features": ["Fork of Elasticsearch", "Full-text Search", "Distributed", "Open Source"],
+        "tools": ["OpenSearch Dashboards"],
+        "related_skills": ["Elasticsearch"]
+      },
+      "Apache Solr": {
+        "name": "Apache Solr",
+        "aliases": ["solr", "apache solr"],
+        "versions": ["Solr 8.x", "Solr 9.x"],
+        "features": ["Full-text Search", "Faceting", "Highlighting", "Distributed Search"],
+        "use_cases": ["Enterprise Search", "E-commerce", "Content Management"],
+        "related_skills": ["Lucene"]
+      }
+    },
+    "time_series": {
+      "InfluxDB": {
+        "name": "InfluxDB",
+        "aliases": ["influxdb", "influx"],
+        "versions": ["InfluxDB 1.x", "InfluxDB 2.x"],
+        "features": ["Time-series Database", "High Write Throughput", "Data Retention Policies"],
+        "query_language": ["InfluxQL", "Flux"],
+        "use_cases": ["IoT", "Monitoring", "Real-time Analytics"],
+        "related_skills": ["Grafana"]
+      },
+      "TimescaleDB": {
+        "name": "TimescaleDB",
+        "aliases": ["timescaledb"],
+        "features": ["PostgreSQL Extension", "Time-series", "Automatic Partitioning", "Compression"],
+        "use_cases": ["IoT", "Financial Data", "Monitoring"],
+        "related_skills": ["PostgreSQL"]
+      },
+      "Prometheus": {
+        "name": "Prometheus",
+        "aliases": ["prometheus"],
+        "features": ["Monitoring", "Time-series Database", "Pull-based", "PromQL"],
+        "use_cases": ["Infrastructure Monitoring", "Application Monitoring"],
+        "related_skills": ["Grafana"]
+      }
+    },
+    "vector_databases": {
+      "Pinecone": {
+        "name": "Pinecone",
+        "aliases": ["pinecone"],
+        "use_cases": ["Semantic Search", "Recommendation Systems", "RAG (Retrieval Augmented Generation)", "Similarity Search"],
+        "related_skills": ["Vector Search", "ML"]
+      },
+      "Weaviate": {
+        "name": "Weaviate",
+        "aliases": ["weaviate"],
+        "use_cases": ["Semantic Search", "Recommendation Systems", "RAG"],
+        "related_skills": ["Vector Search"]
+      },
+      "Milvus": {
+        "name": "Milvus",
+        "aliases": ["milvus"],
+        "use_cases": ["Vector Search", "Similarity Search"],
+        "related_skills": ["Vector Search"]
+      },
+      "Qdrant": {
+        "name": "Qdrant",
+        "aliases": ["qdrant"],
+        "use_cases": ["Vector Search", "RAG"],
+        "related_skills": ["Vector Search"]
+      },
+      "Chroma": {
+        "name": "Chroma",
+        "aliases": ["chroma"],
+        "use_cases": ["Vector Search", "RAG"],
+        "related_skills": ["Vector Search"]
+      },
+      "pgvector": {
+        "name": "pgvector",
+        "aliases": ["pgvector"],
+        "use_cases": ["Vector Search", "PostgreSQL Extension"],
+        "related_skills": ["PostgreSQL"]
+      }
+    }
+  },
+
+  "cloud_and_devops": {
+    "cloud_providers": {
+      "AWS": {
+        "name": "AWS",
+        "aliases": ["amazon web services", "amazon aws"],
+        "compute": ["EC2", "Lambda", "ECS", "EKS", "Fargate", "Lightsail", "Elastic Beanstalk"],
+        "storage": ["S3", "EBS", "EFS", "Glacier", "Storage Gateway"],
+        "database": ["RDS", "DynamoDB", "Aurora", "Redshift", "ElastiCache", "Neptune", "DocumentDB"],
+        "networking": ["VPC", "Route 53", "CloudFront", "API Gateway", "Direct Connect", "Load Balancers"],
+        "security": ["IAM", "Cognito", "Secrets Manager", "KMS", "WAF", "Shield", "GuardDuty"],
+        "monitoring": ["CloudWatch", "CloudTrail", "X-Ray", "Systems Manager"],
+        "devops": ["CodePipeline", "CodeBuild", "CodeDeploy", "CodeCommit"],
+        "ml_ai": ["SageMaker", "Comprehend", "Rekognition", "Polly", "Lex", "Bedrock"],
+        "messaging": ["SQS", "SNS", "EventBridge", "Kinesis"],
+        "analytics": ["Athena", "EMR", "Glue", "QuickSight", "Data Pipeline"],
+        "related_skills": ["EC2", "S3", "Lambda", "Docker", "Kubernetes"]
+      },
+      "Azure": {
+        "name": "Azure",
+        "aliases": ["microsoft azure", "azure cloud"],
+        "compute": ["Virtual Machines", "App Service", "Functions", "AKS", "Container Instances", "Batch"],
+        "storage": ["Blob Storage", "File Storage", "Queue Storage", "Table Storage", "Disk Storage"],
+        "database": ["SQL Database", "Cosmos DB", "MySQL", "PostgreSQL", "Cache for Redis"],
+        "networking": ["Virtual Network", "VPN Gateway", "ExpressRoute", "Load Balancer", "Application Gateway", "CDN"],
+        "security": ["Active Directory", "Key Vault", "Security Center", "Sentinel"],
+        "monitoring": ["Monitor", "Application Insights", "Log Analytics"],
+        "devops": ["DevOps", "Repos", "Pipelines", "Boards", "Test Plans"],
+        "ml_ai": ["Machine Learning", "Cognitive Services", "Bot Service", "OpenAI Service"],
+        "messaging": ["Service Bus", "Event Grid", "Event Hubs"],
+        "analytics": ["Synapse Analytics", "Data Factory", "Databricks", "Stream Analytics"],
+        "related_skills": [".NET", "SQL Server", "PowerShell"]
+      },
+      "Google Cloud Platform": {
+        "name": "Google Cloud Platform",
+        "aliases": ["gcp", "google cloud", "gcp cloud"],
+        "compute": ["Compute Engine", "Cloud Functions", "App Engine", "GKE", "Cloud Run"],
+        "storage": ["Cloud Storage", "Persistent Disk", "Filestore"],
+        "database": ["Cloud SQL", "Firestore", "Bigtable", "Spanner", "Memorystore"],
+        "networking": ["VPC", "Cloud Load Balancing", "Cloud CDN", "Cloud DNS", "Cloud Armor"],
+        "security": ["Identity Platform", "Secret Manager", "Security Command Center", "IAM"],
+        "monitoring": ["Cloud Monitoring", "Cloud Logging", "Cloud Trace", "Cloud Profiler"],
+        "devops": ["Cloud Build", "Container Registry", "Artifact Registry"],
+        "ml_ai": ["Vertex AI", "AutoML", "Vision AI", "Natural Language AI", "Translation AI"],
+        "messaging": ["Pub/Sub", "Cloud Tasks"],
+        "analytics": ["BigQuery", "Dataflow", "Dataproc", "Data Fusion", "Looker"],
+        "related_skills": ["Kubernetes", "BigQuery", "TensorFlow"]
+      }
+    },
+    "containerization": {
+      "Docker": {
+        "name": "Docker",
+        "aliases": ["docker"],
+        "components": ["Docker Engine", "Docker CLI", "Docker Desktop", "Docker Hub"],
+        "concepts": ["Images", "Containers", "Volumes", "Networks", "Dockerfile", "Multi-stage Builds"],
+        "commands": ["docker build", "docker run", "docker ps", "docker exec", "docker logs", "docker compose"],
+        "registries": ["Docker Hub", "AWS ECR", "Azure ACR", "Google GCR", "Harbor"],
+        "related_skills": ["Kubernetes", "Docker Compose"]
+      },
+      "Docker Compose": {
+        "name": "Docker Compose",
+        "aliases": ["docker compose", "docker-compose"],
+        "versions": ["Compose V1", "Compose V2"],
+        "features": ["Multi-container Applications", "Service Definition", "Networking", "Volumes", "Environment Variables"],
+        "file": ["docker-compose.yml", "docker-compose.override.yml"],
+        "related_skills": ["Docker"]
+      },
+      "Kubernetes": {
+        "name": "Kubernetes",
+        "aliases": ["k8s", "kubernetes"],
+        "versions": ["K8s 1.26", "K8s 1.27", "K8s 1.28", "K8s 1.29"],
+        "components": ["API Server", "etcd", "Scheduler", "Controller Manager", "kubelet", "kube-proxy"],
+        "resources": ["Pods", "Deployments", "Services", "ConfigMaps", "Secrets", "Ingress", "StatefulSets", "DaemonSets", "Jobs", "CronJobs"],
+        "networking": ["CNI", "Service Mesh (Istio, Linkerd)", "Network Policies"],
+        "storage": ["PersistentVolumes", "PersistentVolumeClaims", "StorageClasses"],
+        "tools": ["kubectl", "kubeadm", "Minikube", "Kind", "k3s", "k9s"],
+        "managed_services": ["EKS", "AKS", "GKE"],
+        "related_skills": ["Docker", "Helm", "Istio"]
+      },
+      "Helm": {
+        "name": "Helm",
+        "aliases": ["helm"],
+        "versions": ["Helm 2", "Helm 3"],
+        "concepts": ["Charts", "Releases", "Repositories", "Values", "Templates"],
+        "commands": ["helm install", "helm upgrade", "helm rollback", "helm list"],
+        "repositories": ["Artifact Hub", "Bitnami Charts"],
+        "related_skills": ["Kubernetes"]
+      }
+    },
+    "infrastructure_as_code": {
+      "Terraform": {
+        "name": "Terraform",
+        "aliases": ["terraform"],
+        "versions": ["Terraform 1.x"],
+        "concepts": ["Providers", "Resources", "Modules", "State", "Variables", "Outputs"],
+        "workflow": ["terraform init", "terraform plan", "terraform apply", "terraform destroy"],
+        "backends": ["S3", "Azure Storage", "GCS", "Terraform Cloud"],
+        "providers": ["AWS", "Azure", "GCP", "Kubernetes", "Helm"],
+        "related_skills": ["AWS", "Azure", "GCP"]
+      },
+      "Ansible": {
+        "name": "Ansible",
+        "aliases": ["ansible"],
+        "versions": ["Ansible 2.x"],
+        "concepts": ["Playbooks", "Roles", "Modules", "Inventory", "Variables", "Templates (Jinja2)"],
+        "related_skills": ["YAML", "Python"]
+      },
+      "Pulumi": {
+        "name": "Pulumi",
+        "aliases": ["pulumi"],
+        "features": ["Infrastructure as Code", "Multi-language Support", "Cloud Native"],
+        "languages": ["Python", "TypeScript", "Go", "C#"],
+        "related_skills": ["Python", "TypeScript"]
+      }
+    },
+    "ci_cd": {
+      "GitHub Actions": {
+        "name": "GitHub Actions",
+        "aliases": ["github actions", "gh actions"],
+        "features": ["CI/CD", "Workflows", "YAML-based", "GitHub Integration"],
+        "related_skills": ["GitHub", "YAML", "Docker"]
+      },
+      "GitLab CI": {
+        "name": "GitLab CI",
+        "aliases": ["gitlab ci", "gitlab ci/cd"],
+        "features": ["CI/CD", "GitLab Integration", "YAML-based"],
+        "related_skills": ["GitLab", "Docker"]
+      },
+      "Jenkins": {
+        "name": "Jenkins",
+        "aliases": ["jenkins"],
+        "features": ["CI/CD", "Pipeline as Code", "Plugins", "Distributed Builds"],
+        "related_skills": ["Java", "Groovy"]
+      },
+      "Azure DevOps": {
+        "name": "Azure DevOps",
+        "aliases": ["azure devops", "azdo"],
+        "features": ["CI/CD", "Azure Integration", "Pipelines"],
+        "related_skills": ["Azure", ".NET"]
+      }
+    },
+    "monitoring_logging": {
+      "Prometheus": {
+        "name": "Prometheus",
+        "aliases": ["prometheus"],
+        "features": ["Monitoring", "Time-series Database", "Pull-based", "PromQL"],
+        "use_cases": ["Infrastructure Monitoring", "Application Monitoring"],
+        "related_skills": ["Grafana"]
+      },
+      "Grafana": {
+        "name": "Grafana",
+        "aliases": ["grafana"],
+        "features": ["Visualization", "Dashboards", "Alerting"],
+        "data_sources": ["Prometheus", "InfluxDB", "Elasticsearch", "MySQL", "PostgreSQL"],
+        "related_skills": ["Prometheus"]
+      },
+      "ELK Stack": {
+        "name": "ELK Stack",
+        "aliases": ["elk", "elk stack", "elasticsearch logstash kibana"],
+        "components": ["Elasticsearch", "Logstash", "Kibana"],
+        "use_cases": ["Log Analytics", "Search", "Monitoring"],
+        "related_skills": ["Elasticsearch", "Kibana", "Logstash"]
+      },
+      "Datadog": {
+        "name": "Datadog",
+        "aliases": ["datadog"],
+        "features": ["APM", "Infrastructure Monitoring", "Log Management", "Synthetic Monitoring"],
+        "related_skills": ["Monitoring"]
+      }
+    }
+  },
+
+  "data_science_and_ai": {
+    "data_analysis": {
+      "Pandas": {
+        "name": "Pandas",
+        "aliases": ["pandas"],
+        "use_cases": ["Data Manipulation", "Data Analysis", "Data Cleaning"],
+        "related_skills": ["Python", "NumPy"]
+      },
+      "NumPy": {
+        "name": "NumPy",
+        "aliases": ["numpy"],
+        "use_cases": ["Numerical Computing", "Array Operations", "Linear Algebra"],
+        "related_skills": ["Python", "Pandas"]
+      },
+      "Polars": {
+        "name": "Polars",
+        "aliases": ["polars"],
+        "use_cases": ["Data Analysis", "High Performance", "Lazy Evaluation"],
+        "related_skills": ["Python", "Rust"]
+      },
+      "EDA": {
+        "name": "EDA",
+        "aliases": ["exploratory data analysis", "eda"],
+        "use_cases": ["Data Exploration", "Data Visualization", "Statistical Analysis"],
+        "related_skills": ["Pandas", "Matplotlib", "Seaborn"]
+      },
+      "Feature Engineering": {
+        "name": "Feature Engineering",
+        "aliases": ["feature engineering"],
+        "use_cases": ["Machine Learning", "Data Preprocessing"],
+        "related_skills": ["Pandas", "Scikit-learn"]
+      }
+    },
+    "machine_learning": {
+      "Scikit-learn": {
+        "name": "Scikit-learn",
+        "aliases": ["scikit-learn", "sklearn"],
+        "use_cases": ["Machine Learning", "Classification", "Regression", "Clustering"],
+        "related_skills": ["Python", "NumPy", "Pandas"]
+      },
+      "XGBoost": {
+        "name": "XGBoost",
+        "aliases": ["xgboost"],
+        "use_cases": ["Gradient Boosting", "Classification", "Regression"],
+        "related_skills": ["Python", "Scikit-learn"]
+      },
+      "LightGBM": {
+        "name": "LightGBM",
+        "aliases": ["lightgbm"],
+        "use_cases": ["Gradient Boosting", "Fast Training"],
+        "related_skills": ["Python", "XGBoost"]
+      },
+      "CatBoost": {
+        "name": "CatBoost",
+        "aliases": ["catboost"],
+        "use_cases": ["Gradient Boosting", "Categorical Features"],
+        "related_skills": ["Python"]
+      }
+    },
+    "deep_learning": {
+      "TensorFlow": {
+        "name": "TensorFlow",
+        "aliases": ["tensorflow", "tf"],
+        "versions": ["TensorFlow 2.x"],
+        "use_cases": ["Deep Learning", "Neural Networks", "Computer Vision", "NLP"],
+        "related_skills": ["Python", "Keras", "NumPy"]
+      },
+      "Keras": {
+        "name": "Keras",
+        "aliases": ["keras"],
+        "use_cases": ["Deep Learning", "Neural Networks"],
+        "related_skills": ["TensorFlow", "Python"]
+      },
+      "PyTorch": {
+        "name": "PyTorch",
+        "aliases": ["pytorch", "torch"],
+        "use_cases": ["Deep Learning", "Research", "Neural Networks"],
+        "related_skills": ["Python", "NumPy"]
+      },
+      "CNN": {
+        "name": "CNN",
+        "aliases": ["convolutional neural network", "cnn", "convnet"],
+        "use_cases": ["Image Classification", "Computer Vision"],
+        "related_skills": ["TensorFlow", "PyTorch"]
+      },
+      "RNN": {
+        "name": "RNN",
+        "aliases": ["recurrent neural network", "rnn"],
+        "use_cases": ["Sequence Modeling", "NLP", "Time Series"],
+        "related_skills": ["TensorFlow", "PyTorch"]
+      },
+      "Transformers": {
+        "name": "Transformers",
+        "aliases": ["transformers", "transformer models"],
+        "use_cases": ["NLP", "BERT", "GPT", "Large Language Models"],
+        "related_skills": ["PyTorch", "TensorFlow", "Hugging Face"]
+      }
+    },
+    "computer_vision": {
+      "OpenCV": {
+        "name": "OpenCV",
+        "aliases": ["opencv"],
+        "use_cases": ["Image Processing", "Computer Vision", "Object Detection"],
+        "related_skills": ["Python", "C++"]
+      },
+      "Image Classification": {
+        "name": "Image Classification",
+        "aliases": ["image classification"],
+        "use_cases": ["Computer Vision", "ML"],
+        "related_skills": ["CNN", "TensorFlow", "PyTorch"]
+      },
+      "Object Detection": {
+        "name": "Object Detection",
+        "aliases": ["object detection"],
+        "use_cases": ["Computer Vision", "YOLO", "R-CNN"],
+        "related_skills": ["CNN", "OpenCV"]
+      },
+      "Segmentation": {
+        "name": "Segmentation",
+        "aliases": ["image segmentation", "semantic segmentation"],
+        "use_cases": ["Computer Vision", "Medical Imaging"],
+        "related_skills": ["CNN", "U-Net"]
+      }
+    },
+    "nlp": {
+      "NLTK": {
+        "name": "NLTK",
+        "aliases": ["nltk"],
+        "use_cases": ["Natural Language Processing", "Text Processing"],
+        "related_skills": ["Python"]
+      },
+      "spaCy": {
+        "name": "spaCy",
+        "aliases": ["spacy"],
+        "use_cases": ["NLP", "Named Entity Recognition", "Dependency Parsing"],
+        "related_skills": ["Python"]
+      },
+      "Hugging Face Transformers": {
+        "name": "Hugging Face Transformers",
+        "aliases": ["hugging face", "transformers library"],
+        "use_cases": ["NLP", "Pre-trained Models", "BERT", "GPT"],
+        "related_skills": ["PyTorch", "TensorFlow"]
+      },
+      "Text Classification": {
+        "name": "Text Classification",
+        "aliases": ["text classification"],
+        "use_cases": ["NLP", "Sentiment Analysis"],
+        "related_skills": ["Transformers", "spaCy"]
+      },
+      "Named Entity Recognition": {
+        "name": "Named Entity Recognition",
+        "aliases": ["ner", "named entity recognition"],
+        "use_cases": ["NLP", "Information Extraction"],
+        "related_skills": ["spaCy", "Transformers"]
+      }
+    }
+  },
+
+  "big_data": {
+    "processing": {
+      "Apache Spark": {
+        "name": "Apache Spark",
+        "aliases": ["spark", "apache spark"],
+        "use_cases": ["Big Data Processing", "Distributed Computing"],
+        "related_skills": ["Scala", "Python", "Java"]
+      },
+      "PySpark": {
+        "name": "PySpark",
+        "aliases": ["pyspark"],
+        "use_cases": ["Spark with Python"],
+        "related_skills": ["Apache Spark", "Python"]
+      },
+      "Hadoop MapReduce": {
+        "name": "Hadoop MapReduce",
+        "aliases": ["mapreduce", "hadoop mapreduce"],
+        "use_cases": ["Big Data Processing"],
+        "related_skills": ["Hadoop", "Java"]
+      }
+    },
+    "streaming": {
+      "Apache Kafka": {
+        "name": "Apache Kafka",
+        "aliases": ["kafka", "apache kafka"],
+        "use_cases": ["Event Streaming", "Message Queue"],
+        "related_skills": ["Scala", "Java"]
+      },
+      "Apache Flink": {
+        "name": "Apache Flink",
+        "aliases": ["flink", "apache flink"],
+        "use_cases": ["Stream Processing", "Real-time Analytics"],
+        "related_skills": ["Java", "Scala"]
+      },
+      "Spark Streaming": {
+        "name": "Spark Streaming",
+        "aliases": ["spark streaming"],
+        "use_cases": ["Stream Processing"],
+        "related_skills": ["Apache Spark"]
+      }
+    },
+    "data_warehousing": {
+      "BigQuery": {
+        "name": "BigQuery",
+        "aliases": ["bigquery", "google bigquery"],
+        "use_cases": ["Data Warehousing", "Analytics"],
+        "related_skills": ["GCP", "SQL"]
+      },
+      "Redshift": {
+        "name": "Redshift",
+        "aliases": ["amazon redshift", "redshift"],
+        "use_cases": ["Data Warehousing"],
+        "related_skills": ["AWS", "SQL"]
+      },
+      "Snowflake": {
+        "name": "Snowflake",
+        "aliases": ["snowflake"],
+        "use_cases": ["Data Warehousing", "Cloud Data Platform"],
+        "related_skills": ["SQL"]
+      }
+    }
+  },
+
+  "mlops": {
+    "model_management": {
+      "MLflow": {
+        "name": "MLflow",
+        "aliases": ["mlflow"],
+        "use_cases": ["Model Tracking", "Model Registry"],
+        "related_skills": ["Python", "Machine Learning"]
+      },
+      "DVC": {
+        "name": "DVC",
+        "aliases": ["dvc", "data version control"],
+        "use_cases": ["Data Versioning", "ML Pipeline"],
+        "related_skills": ["Git", "Python"]
+      },
+      "Model Versioning": {
+        "name": "Model Versioning",
+        "aliases": ["model versioning"],
+        "use_cases": ["MLOps"],
+        "related_skills": ["MLflow", "DVC"]
+      }
+    },
+    "deployment": {
+      "TensorFlow Serving": {
+        "name": "TensorFlow Serving",
+        "aliases": ["tensorflow serving", "tf serving"],
+        "use_cases": ["Model Serving", "Production Deployment"],
+        "related_skills": ["TensorFlow", "Docker"]
+      },
+      "TorchServe": {
+        "name": "TorchServe",
+        "aliases": ["torchserve"],
+        "use_cases": ["PyTorch Model Serving"],
+        "related_skills": ["PyTorch", "Docker"]
+      },
+      "FastAPI ML APIs": {
+        "name": "FastAPI ML APIs",
+        "aliases": ["fastapi ml"],
+        "use_cases": ["ML API Development"],
+        "related_skills": ["FastAPI", "Python"]
+      }
+    },
+    "monitoring": {
+      "Model Drift Detection": {
+        "name": "Model Drift Detection",
+        "aliases": ["model drift", "data drift"],
+        "use_cases": ["ML Monitoring"],
+        "related_skills": ["MLflow"]
+      },
+      "Performance Monitoring": {
+        "name": "Performance Monitoring",
+        "aliases": ["ml monitoring"],
+        "use_cases": ["MLOps"],
+        "related_skills": ["Prometheus", "Grafana"]
+      }
+    }
+  },
+
+  "mobile_development": {
+    "cross_platform": {
+      "Flutter": {
+        "name": "Flutter",
+        "aliases": ["flutter"],
+        "use_cases": ["Cross-platform Mobile Development"],
+        "related_skills": ["Dart"]
+      },
+      "React Native": {
+        "name": "React Native",
+        "aliases": ["react native", "react-native"],
+        "use_cases": ["Cross-platform Mobile Development"],
+        "related_skills": ["React", "JavaScript"]
+      },
+      "Xamarin": {
+        "name": "Xamarin",
+        "aliases": ["xamarin"],
+        "use_cases": ["Cross-platform Mobile Development"],
+        "related_skills": ["C#", ".NET"]
+      }
+    },
+    "native": {
+      "Android (Jetpack, Kotlin)": {
+        "name": "Android (Jetpack, Kotlin)",
+        "aliases": ["android", "android development", "jetpack"],
+        "use_cases": ["Native Android Development"],
+        "related_skills": ["Kotlin", "Java"]
+      },
+      "iOS (Swift, UIKit, SwiftUI)": {
+        "name": "iOS (Swift, UIKit, SwiftUI)",
+        "aliases": ["ios", "ios development", "swiftui", "uikit"],
+        "use_cases": ["Native iOS Development"],
+        "related_skills": ["Swift"]
+      }
+    }
+  },
+
+  "software_architecture": [
+    "Microservices",
+    "Monolithic Architecture",
+    "Event-Driven Architecture",
+    "Clean Architecture",
+    "MVC",
+    "MVVM"
+  ],
+
+  "security": [
+    "Authentication",
+    "Authorization",
+    "JWT",
+    "OAuth 2.0",
+    "OWASP Top 10",
+    "Data Encryption"
+  ],
+
+  "tools_and_platforms": [
+    "Git",
+    "GitHub",
+    "GitLab",
+    "Linux",
+    "Postman",
+    "Swagger",
+    "JIRA",
+    "Confluence",
+    "Microsoft Office",
+    "Excel",
+    "Word",
+    "PowerPoint",
+    "AutoCAD",
+    "ANSYS",
+    "Solidworks",
+    "Revit",
+    "Microstation",
+    "Pro/Engineer",
+    "PTC Creo",
+    "Autodesk Inventor",
+    "GD&T",
+    "CNC",
+    "Lathe",
+    "Mill",
+    "DSC",
+    "TGA"
+  ],
+
+  "methodologies": [
+    "Agile",
+    "Scrum",
+    "Kanban",
+    "Waterfall",
+    "TDD"
+  ],
+
+  "soft_skills": [
+    "Problem Solving",
+    "Analytical Thinking",
+    "Communication",
+    "Teamwork",
+    "Time Management",
+    "Adaptability",
+    "Critical Thinking"
+  ]
+}

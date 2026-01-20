@@ -1,0 +1,39 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+ENV/
+.venv
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Internal Documentation (GitHub'da gösterilmeyecek)
+CV_PARSING_GUIDE.md
+SKILL_EXTRACTION_GUIDE.md
+PIPELINE_ARCHITECTURE.md
+Roadmap.md
+
+# Data files (test için hariç tutulabilir)
+data/raw_cvs/*
+!data/raw_cvs/.gitkeep
+data/test_outputs/*
+!data/test_outputs/.gitkeep
+
+# Environment
+.env
+.env.local
+
+# Logs
+*.log
+
+# macOS
+.DS_Store
+
